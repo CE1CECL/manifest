@@ -1,4 +1,4 @@
-# mtk-watch #
+# CE1CECL #
 
 ### Setup build enviroment ###
 https://source.android.com/setup/build/initializing#installing-required-packages-ubuntu-1804
@@ -8,7 +8,7 @@ https://source.android.com/setup/build/initializing#installing-required-packages
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/mtk-watch/manifest -b t-alps-q0.mp1-V9.122.1
+repo init -u https://github.com/CE1CECL/manifest -b t-alps-q0.mp1-V9.122.1
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
